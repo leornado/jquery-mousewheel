@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d03ce8ca-a14c-43a5-a675-69663f8bd969" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery.mousewheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery.mousewheel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623926903010</updated>
-      <workItem from="1623926904634" duration="861000" />
+      <workItem from="1623926904634" duration="1412000" />
     </task>
     <servers />
   </component>
@@ -74,22 +73,22 @@
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state x="743" y="271" key="FileChooserDialogImpl/0.0.1920.1052@0.0.1920.1052" timestamp="1623927510714" />
-    <state width="1563" height="273" key="GridCell.Tab.0.bottom" timestamp="1623927962353">
+    <state width="1563" height="273" key="GridCell.Tab.0.bottom" timestamp="1623928311955">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1563" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1623927962353" />
-    <state width="1563" height="273" key="GridCell.Tab.0.center" timestamp="1623927962353">
+    <state width="1563" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1623928311955" />
+    <state width="1563" height="273" key="GridCell.Tab.0.center" timestamp="1623928311955">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1563" height="273" key="GridCell.Tab.0.center/0.0.1920.1052@0.0.1920.1052" timestamp="1623927962353" />
-    <state width="1563" height="273" key="GridCell.Tab.0.left" timestamp="1623927962353">
+    <state width="1563" height="273" key="GridCell.Tab.0.center/0.0.1920.1052@0.0.1920.1052" timestamp="1623928311955" />
+    <state width="1563" height="273" key="GridCell.Tab.0.left" timestamp="1623928311955">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1563" height="273" key="GridCell.Tab.0.left/0.0.1920.1052@0.0.1920.1052" timestamp="1623927962353" />
-    <state width="1563" height="273" key="GridCell.Tab.0.right" timestamp="1623927962353">
+    <state width="1563" height="273" key="GridCell.Tab.0.left/0.0.1920.1052@0.0.1920.1052" timestamp="1623928311955" />
+    <state width="1563" height="273" key="GridCell.Tab.0.right" timestamp="1623928311955">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1563" height="273" key="GridCell.Tab.0.right/0.0.1920.1052@0.0.1920.1052" timestamp="1623927962353" />
+    <state width="1563" height="273" key="GridCell.Tab.0.right/0.0.1920.1052@0.0.1920.1052" timestamp="1623928311955" />
     <state x="721" y="240" key="RollbackChangesDialog" timestamp="1623927608810">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
