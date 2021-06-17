@@ -21,7 +21,7 @@
 
     var toFix  = ['wheel', 'mousewheel', 'DOMMouseScroll', 'MozMousePixelScroll'],
         toBind = ( 'onwheel' in document || document.documentMode >= 9 ) ?
-                    ['wheel'] : ['mousewheel', 'DomMouseScroll', 'MozMousePixelScroll'],
+            ['wheel'] : ['mousewheel', 'DomMouseScroll', 'MozMousePixelScroll'],
         slice  = Array.prototype.slice,
         nullLowestDeltaTimeout, lowestDelta;
 
@@ -31,7 +31,7 @@
         }
     }
 
-    var special = $.event.special.mousewheel = {
+    var special = $.event.special.jqmousewheel = {
         version: '3.1.12',
 
         setup: function() {
@@ -81,11 +81,11 @@
 
     $.fn.extend({
         mousewheel: function(fn) {
-            return fn ? this.bind('mousewheel', fn) : this.trigger('mousewheel');
+            return fn ? this.bind('jqmousewheel', fn) : this.trigger('jqmousewheel');
         },
 
         unmousewheel: function(fn) {
-            return this.unbind('mousewheel', fn);
+            return this.unbind('jqmousewheel', fn);
         }
     });
 
@@ -100,7 +100,7 @@
             offsetX    = 0,
             offsetY    = 0;
         event = $.event.fix(orgEvent);
-        event.type = 'mousewheel';
+        event.type = 'jqmousewheel';
 
         // Old school scrollwheel delta
         if ( 'detail'      in orgEvent ) { deltaY = orgEvent.detail * -1;      }
